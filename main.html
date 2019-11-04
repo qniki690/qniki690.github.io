@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Бизнес для чайников:) </title>
+		<link rel="stylesheet" href="style_buissnes.css">
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>   
+	</head>
+	<body>
+
+		<!-- Заголовок -->
+		<div class="header">
+			<img class="logo_img" src="logo_img.png" alt="xz chego ne pashet">
+			<h1 class="logo_txt">Бизнес для чайников:0</h1>
+			
+		</div>
+
+		<div class="line"></div>
+
+		<!-- Меню -->
+		<div class="navy">
+			<p class="name_navy">Меню</p>
+
+			<div class="pane">Общие понятия</div>
+				<div class="underpane">Lol</div>
+
+			<div class="pane">Инвестиции в недвижимость</div>
+				<div class="underpane">Инвестиции в ценные бумаги</div>
+			
+			<div class="pane">Свой бизнес</div>
+				<div class="underpane">KEk</div>
+			
+			<div class="pane">Видеоуроки</div>
+				<div class="underpane">Cheburek</div>
+		</div>
+
+		<!-- Реклама -->
+		<div class="advertising">
+			<h1 class="reklam_txt">Тут может быть ваша реклама!!!</h1><br>
+			<h2>Писать в Instagram <p>@myasnik_off_</p></h2>
+		</div>
+
+		<!-- Главная форма -->
+		<div class="form">
+			<div class="zag_osn">Про ЗНО з математики 2020</div>
+			<div class="txt_osn">Тест ЗНО з математики 2020 року складається із 33-х завдань, трьох видів:
+			20 завдань з вибором однієї правильної відповіді, завдання №1 - №20 - до кожного тестового завдання надано п’ять варіантів відповіді, з яких лише один є правильним. Завдання вважається виконаним, якщо учасник вибрав правильну відповідь. Оцінювання 0 або 1 тестовий бал.<!-- </span> -->
+			<br><br>
+			<!-- <span> -->4 завдання на встановлення відповідності (логічні пари), завдання №21 - №24 - до кожного завдання подано інформацію, позначену цифрами і буквами. Щоб правильно виконати завдання, необхідно встановити відповідність між цифрами та буквами (утворити логічні пари). Завдання вважається виконаним, якщо абітурієнт правильно визначив логічні пари. Оцінювання 0, 1, 2, 3 або 4 тестових бали. 1 бал за кожну правильно встановлену відповідність (логічну пару).<!-- </span> -->
+			<br>
+			<!-- <span> -->9 завдань відкритої форми з короткою відповіддю, завдання №25 - №33 - абітурієнту необхідно самостійно визначити числовий результат встановленої розмірності, за правильне виконання завдання буде нараховуватись по 2 тестові бали.</span>
+			<br><br>
+			<!-- <span class="3"> -->За всі правильно виконані тести учасник ЗНО з математики може набрати 54 тестові бали.
+			На виконання тесту абітурієнтам буде відведено 150 хвилин.
+			Під час тестування забороняється використання будь-яких стороніх матеріалів (навіть калькуляторів), окрім наданих в тестових зошитах.<!-- </span> -->
+			<br><br>
+			<!-- <span> -->Завантажити офіційний документ програми зовнішнього незалежного оцінювання можна за посиланням: http://testportal.gov.ua//wp-content/uploads/2016/12/Programa_2020_matematyka.pdf</div>
+
+		</div>
+
+
+		<script type="text/javascript">
+
+			
+			jQuery(document).ready(function() {
+  
+	 			jQuery('.navy>.underpane').not(':first-of-type').hide();
+	 
+	  			jQuery('.navy>.pane').click(function() {
+	    
+	    			var findUnderpane = jQuery(this).next();
+	   				var findNavy = jQuery(this).closest('.navy');
+	    
+	    		if (findUnderpane.is(':visible')) {
+	      			findUnderpane.slideUp('fast');
+	    		}else {
+			      findNavy.find('>.underpane').slideUp('fast');
+			      findUnderpane.slideDown('fast');
+	    		}
+	 				 });
+  
+			});
+
+		</script>
+	</body>
+</html>	

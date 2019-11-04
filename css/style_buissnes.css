@@ -1,0 +1,116 @@
+body{
+	overflow:auto;
+	overflow-x: inherit;
+	font-family: "Bradley Hand", Cursive;
+	height:300px;
+	background: #333;
+}
+.header{
+	height: 150px;
+	width: 100%;
+	background: #999;
+	color: #888;
+	position: fixed;
+	/*padding: 5%;*/
+	margin-left: -8px;
+	margin-top: -190px;
+	margin-bottom: 10px;
+}
+.logo_txt{
+	color: #483D8B;
+	margin-top: -85px;
+	margin-left: 10px;
+	font-size: 50px;
+}
+.logo_img{
+	width: 500px;
+	height: 150px;
+	margin-left: 600px;
+	margin-top: -5px;
+}
+.line{
+	background: #778899;
+	height: 30px;
+	width: 100%;
+	margin-top: -35px;
+	margin-right: -8px;
+	margin-left: -8px;
+	position: fixed;
+	/*overflow: hidden;*/
+}
+.navy{
+	position: fixed;
+	/*height:350px;*/
+	background: #777;
+	width: 200px;
+	min-height: 700px;
+	/*margin-top: 10px;*/
+	margin-left: -8px;
+}
+.name_navy{
+	font-size: 25px;
+	/*font: bold;*/
+	color:#8FBC8F;
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-bottom: -2px;
+}
+.pane{
+	font-size: 20px;
+	background:#5F9EA0;
+	border-color: #4682B4;
+	border-radius: 10px;
+	border-style: solid;
+	padding: 3%;
+	margin-top: 2px;
+}
+.underpane{
+	font-size: 15px;
+	background: #2F4F4F;
+	border-color: #708090;
+	border-radius: 10px;
+	border-style: solid;
+	padding: 3%;
+	margin-top: 1px;
+}
+.pane:hover{
+	cursor:pointer;
+	background:#8FBC8F; 
+}
+.advertising{
+	align-content: right;
+	background: #444;
+	min-height: 507px;
+	/*margin-top: -30px;*/
+	margin-right: -8px;
+	width: 300px;
+	margin-left: 1058px;
+    position:fixed;
+	text-align: center;
+}
+.reklam_txt{
+	color: #708090;
+}
+h2{
+	color:#40E0D0;
+}
+p{
+	color: green;
+	font-size: 30px;
+}
+.form{
+	margin-top: 190px;
+	background-color: #666;
+	margin-left: 200px;
+	margin-right: 300px;
+	/*position:inherit;*/
+	width: 63.7%;
+	min-height: 500px;
+}
+.zag_osn{
+	font-size: 25px;
+	text-align: center;
+}
+.txt_osn{
+	padding: 5%;
+}
